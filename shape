@@ -1,0 +1,68 @@
+/*椭圆*/
+.ellipse {
+width: 100px; 
+height: 200px;
+background-color: #A4F4B0; 
+border-radius: 50%; 
+shape-outside: ellipse();
+ float: left; 
+}
+
+
+/*圆*/
+.circle { 
+/* general styles for the div*/ 
+width: 200px; 
+height: 200px;
+background-color: #A4F4B0;
+border-radius: 50%; 
+/* make it a shape!*/ 
+shape-outside: circle(); 
+float: left; 
+}
+
+
+/*矩形*/
+
+.inset { 
+width: 200px; 
+height: 160px; 
+background-color: #A4F4B0; 
+border-radius: 50px; s
+hape-outside: inset(0px round 50px); 
+float: left;
+}
+
+
+/*三角形*/
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+}   
+
+#triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid red;
+    border-bottom: 50px solid transparent;
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid red;
+    border-bottom: 50px solid transparent;
+}   
